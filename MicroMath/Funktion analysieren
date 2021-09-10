@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<micromath xmlns:mmt="http://micromath.mkulesh.com">
+  <formulaList documentVersion="2" author="" title="" description="" textWidth="60" significantDigits="6" scale="0.70629" redefineAllowed="true">
+    <equation>
+      <term key="leftTerm" text="f(x)" />
+      <term key="rightTerm" code="minus">
+        <term key="leftTerm" code="mult">
+          <term key="leftTerm" text="0.01" />
+          <term key="rightTerm" code="power">
+            <term key="leftTerm" text="x" />
+            <term key="rightTerm" text="3" />
+          </term>
+        </term>
+        <term key="rightTerm" code="mult">
+          <term key="leftTerm" text="0.8" />
+          <term key="rightTerm" text="x" />
+        </term>
+      </term>
+    </equation>
+    <equation>
+      <term key="leftTerm" text="x" />
+      <term key="rightTerm" code="equidistant_interval">
+        <term key="minValue" text="-10" />
+        <term key="nextValue" text="-9.9" />
+        <term key="maxValue" text="10" />
+      </term>
+    </equation>
+    <plot_function width="571" height="571" axes_style="crossed" xLabelsNumber="4" yLabelsNumber="4" gridLineColor="#FF787878" xType="linear" yType="linear" functionsNumber="1">
+      <term key="yMaxValue" text="10" />
+      <term key="yFunction" color="#FF0000FF" width="3" lineStyle="solid" shapeType="none" shapeSize="300" code="content:com.mkulesh.micromath.link.f">
+        <term key="argTerm" text="x" />
+      </term>
+      <term key="yMinValue" text="-10" />
+      <term key="xMinValue" text="" />
+      <term key="xFunction" text="x" />
+      <term key="xMaxValue" text="" />
+    </plot_function>
+    <text_fragment>
+      <term key="text" text="Markante Punkte im Plot ermitteln:&#10;- Nullstellen (Schnittpunkte mit der x- Achse)&#10;- Schnittpunkt mit der y-Achse&#10;- Maxima/Minima&#10;- Wendepunkte" />
+    </text_fragment>
+    <text_fragment>
+      <term key="text" text="Nullstellen: f(x) = 0 setzen" />
+    </text_fragment>
+    <equation>
+      <term key="leftTerm" text="f(x)" />
+      <term key="rightTerm" code="minus">
+        <term key="leftTerm" code="mult">
+          <term key="leftTerm" text="0.01" />
+          <term key="rightTerm" code="power">
+            <term key="leftTerm" text="x" />
+            <term key="rightTerm" text="3" />
+          </term>
+        </term>
+        <term key="rightTerm" code="mult">
+          <term key="leftTerm" text="0.8" />
+          <term key="rightTerm" text="x" />
+        </term>
+      </term>
+    </equation>
+    <text_fragment inRightOfPrevious="true">
+      <term key="text" text="x ausklammern" />
+    </text_fragment>
+    <equation>
+      <term key="leftTerm" text="f(x)" />
+      <term key="rightTerm" code="mult">
+        <term key="leftTerm" text="x" />
+        <term key="rightTerm" code="identity">
+          <term key="argTerm" code="minus">
+            <term key="leftTerm" code="mult">
+              <term key="leftTerm" text="0.01" />
+              <term key="rightTerm" code="power">
+                <term key="leftTerm" text="x" />
+                <term key="rightTerm" text="2" />
+              </term>
+            </term>
+            <term key="rightTerm" text="0.8" />
+          </term>
+        </term>
+      </term>
+    </equation>
+    <text_fragment>
+      <term key="text" text="x1 = 0 oder 0.01•x^2 - 0.8 = 0&#10;x2,3 = +/-√(80) ~ +/- 8.9" />
+    </text_fragment>
+    <text_fragment>
+      <term key="text" text="Schnittpunkt mit der y-Achse&#10;f(0) berechnen" />
+    </text_fragment>
+    <result disableCalculation="false" hideResultField="false" arrayLength="7">
+      <term key="leftTerm" code="content:com.mkulesh.micromath.link.f">
+        <term key="argTerm" text="0" />
+      </term>
+      <term key="rightTerm" text="0.0" />
+    </result>
+    <text_fragment>
+      <term key="text" text="Maxima/Minima&#10;Erste Ableitung ermitteln" />
+    </text_fragment>
+    <equation>
+      <term key="leftTerm" text="fs(x)" />
+      <term key="rightTerm" code="minus">
+        <term key="leftTerm" code="mult">
+          <term key="leftTerm" text="0.03" />
+          <term key="rightTerm" code="power">
+            <term key="leftTerm" text="x" />
+            <term key="rightTerm" text="2" />
+          </term>
+        </term>
+        <term key="rightTerm" text="0.8" />
+      </term>
+    </equation>
+    <text_fragment>
+      <term key="text" text="fs(x) = 0 setzen und x-Werte berechnen&#10;x1,2 ~ +/- 5.2&#10;Zweite Ableitung ermitteln" />
+    </text_fragment>
+    <equation>
+      <term key="leftTerm" text="fss(x)" />
+      <term key="rightTerm" code="mult">
+        <term key="leftTerm" text="0.06" />
+        <term key="rightTerm" text="x" />
+      </term>
+    </equation>
+    <text_fragment>
+      <term key="text" text="x1 ~ -5.2 einsetzen" />
+    </text_fragment>
+    <result disableCalculation="false" hideResultField="false" arrayLength="7">
+      <term key="leftTerm" code="content:com.mkulesh.micromath.link.fss">
+        <term key="argTerm" text="-5.2" />
+      </term>
+      <term key="rightTerm" text="-0.312" />
+    </result>
+    <text_fragment>
+      <term key="text" text="fss kleiner 0 ==&gt; Maximum" />
+    </text_fragment>
+    <text_fragment>
+      <term key="text" text="x1 ~ +5.2 einsetzen" />
+    </text_fragment>
+    <result disableCalculation="false" hideResultField="false" arrayLength="7">
+      <term key="leftTerm" code="content:com.mkulesh.micromath.link.fss">
+        <term key="argTerm" text="5.2" />
+      </term>
+      <term key="rightTerm" text="0.312" />
+    </result>
+    <text_fragment>
+      <term key="text" text="fss größer 0 ==&gt; Minimum" />
+    </text_fragment>
+    <text_fragment>
+      <term key="text" text="Wendepunkte: fss(x) = 0&#10;x = 0" />
+    </text_fragment>
+  </formulaList>
+</micromath>

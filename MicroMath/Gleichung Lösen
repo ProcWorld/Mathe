@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<micromath xmlns:mmt="http://micromath.mkulesh.com">
+  <formulaList documentVersion="2" author="" title="" description="" textWidth="60" significantDigits="6" scale="1.00000" redefineAllowed="true">
+    <text_fragment>
+      <term key="text" text="Substitution2&#10;z = x²&#10;Geht nur, wenn Potenzen&#10;von x gerade sind." />
+    </text_fragment>
+    <text_fragment>
+      <term key="text" text="Ablesen&#10;Geht nur, wenn Linear-&#10;faktoren vorliegen." />
+    </text_fragment>
+    <text_fragment>
+      <term key="text" text="pq-Formel" />
+    </text_fragment>
+    <text_fragment>
+      <term key="text" text="Ausklammern&#10;Geht nur, wenn in jedem&#10;Summand mindestens&#10;ein x enthalten ist." />
+    </text_fragment>
+  </formulaList>
+</micromath>
